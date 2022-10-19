@@ -1,0 +1,89 @@
+@font-face {
+  font-family: "Libre Baskerville";
+  src: url("../fonts/transfonter.org-20221018-114104/LibreBaskerville-Bold.woff2")
+      format("woff2"),
+    url("../fonts/transfonter.org-20221018-114104/LibreBaskerville-Bold.woff")
+      format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Font-family out */
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Libre Baskerville", serif;
+}
+
+img {
+  vertical-align: middle;
+  object-fit: cover;
+}
+
+/* Header */
+.container {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.header {
+  margin-top: 40px;
+}
+
+small {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+  letter-spacing: 2.57143px;
+  color: #7d7d7d;
+}
+
+.hrLine {
+  border: 0.1px solid #e5e5e5;
+}
+
+.wrapper-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+/* Header */
+
+/* Galleria */
+.wrapper {
+  margin-top: 40px;
+}
+
+.wrapper-images {
+  display: grid;
+  grid-template-columns: repeat(4, 310px);
+  grid-gap: 40px; /* Giving margin like */
+  position: relative;
+}
+
+.gallery-2 {
+  position: relative;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #ffffff;
+  margin-bottom: 7px;
+}
+
+.gallery-items {
+  position: absolute;
+  top: 150px;
+  left: 20px;
+  /* bottom: 30px; */
+}
